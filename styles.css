@@ -1,2 +1,70 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #ffe8cc, #ffd6a5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+form {
+  background-color: #fff8f0;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  width: 350px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+  color: #555;
+  font-weight: 600;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 8px 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: 0.2s;
+}
+
+input[type="text"]:focus,
+select:focus {
+  border-color: #f79f1f;
+  box-shadow: 0 0 5px rgba(247,159,31,0.5);
+}
+
+input[type="checkbox"] {
+  margin-top: 8px;
+}
+
+input[type="submit"] {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #f79f1f;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #d98700;
+}
 
 /* Your CSS Code here. */
